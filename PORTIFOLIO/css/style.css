@@ -3,7 +3,7 @@ html, body{
     height:100%;
     margin:0;
     padding: 0;
-    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -33,21 +33,21 @@ html, body{
 
 .header-info{
     position: absolute;
-    font-size: 30px;
-          
-    )
-    color:rgb(255, 255, 255);
-    text-shadow: 10px 3px 25px rgba(15,15,15,1);
+    font-size: 35px; 
+    color:rgba(0, 0, 0, 0.993);
+    text-shadow: 10px 3px 25px rgba(226, 203, 128, 0.445);
 
 
 
 }
 
 .btn{
+    margin:auto;
+    margin-bottom: 40px;
     border: 2px solid #9f0000;
     width:10em;
     height:2.4em;
-    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Oswald', sans-serif;
     cursor:pointer;
     border-radius:8px;
     background-color: #944300;
@@ -65,3 +65,103 @@ a{
     text-decoration: none;
     color:white;
 }
+
+.section{
+    display: flex;
+    width: 100%;
+    margin-top: 3em;
+    
+}
+.experience-sec{
+    flex-direction: column;
+    text-emphasis: center;
+    font-family: 'Oswald', sans-serif;
+}
+.section-header{
+    margin:auto;
+    font-size: 30px;
+    padding:16px 5px;
+    border-bottom: 3px solid #9f0000;
+}
+.contact-sec.section-header{
+    color:white;
+}
+
+.experience-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 6em;
+}
+
+.experience-item{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    border-radius: 4px;
+}
+
+.item-logo> img{
+    width:100%;
+    height: 100%;
+}
+
+.item-logo{
+    width: 15em;
+    height: 15em;
+}
+.item-name{
+    font-size:25px;
+    margin-top: 1.7em;
+}
+
+.contact-sec{
+    min-height:30em;
+    background-color: rgba(241, 186, 83, 0.726);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-container{
+    width: 21em;
+    margin-top:5em;
+    display:flex;
+}
+
+#contact-form{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+
+#contact-form>label{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+}
+
+#contact-form>input{
+    padding: 0,5px;
+    height:25px;
+    margin-top:10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    border:0;
+    border-bottom: 3px solid #9f0000 ;
+    box-shadow: 0px 0px 15px 5px rgba(15, 15, 15, 0.3);
+    font-family: 'Oswald', sans-serif;
+}
+
+#contact-form>textarea{
+    padding: 0,5px;
+    margin-top:10px;
+    max-width: 100%;
+    min-height: 152px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    box-shadow: 0px 0px 15px 5px rgba(15, 15, 15, 0.3);
+    border-bottom: 3px solid #9f0000 ;
+ }
+
